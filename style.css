@@ -1,0 +1,93 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+.header {
+    margin-top: 24px;
+}
+
+.flags > div {
+    text-align: center;
+}
+
+.flags img {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    margin: 70px 0px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 70px 0;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.featurette p {
+    font-size: 18px;
+}
+.featurette h2 {
+    font-size: 32px;
+}
+.featurette span {
+    font-weight: bold;
+    font-size: 15px;
+}
+.featurette img {
+    max-height: 534px;
+}
+
+@media (max-width: 991px) {
+    .header, .featurette {
+        text-align: center;
+    }
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .featurette img {
+        margin-bottom: 20px;
+    }
+    .header img {
+        display: inline;
+    }
+}
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+@media (min-width: 992px) {
+    .header img {
+        float: right;
+    }
+}
